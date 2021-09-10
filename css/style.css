@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
+#hero-txt, .mfc-heading, .learn-any, .metric, .mfc-h {
+    font-family: 'Kumar One';
+}
+
+.mfc-sec-heading {
+    font-family: 'Dancing Script'
+}
+
 .section-1 {
     background-image: url(/assets/header-background-lg.png);
     background-size: contain;
@@ -30,7 +38,7 @@
 
 
 .mfc-sec-heading {
-    color: #FFBE27;
+    color: #eca601;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -42,10 +50,6 @@
     font-weight: 900;
 }
 
-.mfc-heading-extra {
-    font-size: larger;
-}
-
 .mail-sub-div {
     background-image: url(/assets/email-sub-bkgrnd-Group\ 85.png);
     background-size: cover;
@@ -53,10 +57,9 @@
     background-repeat: no-repeat;
 }
 
-.feature {
+#motiv-feature-connect-div {
     background-image: url(/assets/feature-bkgrnd-puzzle-conffetti-Group\ 85.png);
-    background-size: contain;
-    background-position-y: center;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -125,5 +128,15 @@
 
     .mantra-2 {
         display: none;
+    }
+
+    #motiv-feature-connect-div {
+        background-image: url(/assets/feature-background-mobile.png);    
+    }
+
+    .mid-section-3 {
+        background-image: url(/assets/cta-background-mobile.png);
+        background-size: 90%;
+        background-position: right;
     }
 }

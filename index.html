@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bluvard ink</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="/tailwind.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kumar+One&family=Kumar+One+Outline&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="text-gray-600 font-semibold lg:leading-8">
@@ -23,12 +33,12 @@
                             <img src="/assets/nav-dropdown.svg">
                         </div>
                     </div>
-                    <div class="hidden bg-blue-600 lg:bg-transparent text-white w-full lg:block absolute top-1/3 lg:static text-center font-semibold" id="menu">
-                        <ul class="lg:flex lg:flex-shrink lg:text-xs lg:text-black">
+                    <div class="hidden bg-blue-600 lg:bg-transparent text-white w-full lg:block absolute top-20 lg:static text-center font-semibold" id="menu">
+                        <ul class="lg:flex lg:justify-end lg:text-xs lg:text-black">
                             <li class="lg:w-24"><a href="#" class="lg:block lg:px-4 lg:py-4 lg:text-blue-600 block px-6 py-8">HOME</a></li>
                             <li class="lg:w-24"><a href="#" class="lg:block lg:px-4 lg:py-4 block px-6 py-8">ABOUT</a></li>
                             <li class="lg:w-24"><a href="#" class="lg:block lg:px-4 lg:py-4 block px-6 py-8">BLOG</a></li>
-                            <li class="lg:w-48 lg:bg-blue-600 lg:rounded-2xl lg:rounded-bl-none lg:ml-12 bg-blue-500"><a href="#" class="lg:block lg:px-4 lg:py-4 lg:text-white block px-6 py-8">JOIN THE WAITING LIST</a></li>
+                            <li class="lg:w-48 lg:bg-blue-600 lg:rounded-2xl lg:rounded-bl-none lg:ml-12 bg-blue-500"><a href="https://form.jotform.com/212514618058555" class="lg:block lg:px-4 lg:py-4 lg:text-white block px-6 py-8">JOIN THE WAITING LIST</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -38,16 +48,16 @@
             <!--hero begins-->
             <div class="container">
                 <div id="hero-div" class="flex flex-col justify-center">
-                    <h1 id="hero-txt" class="font-black text-center text-black mt-20 mb-10 text-xl uppercase lg:text-6xl"><span class="lg:6xl">learning together</span> <br> just got <span class="text-blue-600">easier</span><span><img src="/assets/bi_chat-left-quote-fill.svg" alt="qoute" class="inline quote ml-2 mb-5 lg:mb-16"></span></h1>
+                    <h1 id="hero-txt" class="font-bold text-center text-black mt-20 mb-10 text-xl uppercase sm:text-4xl lg:text-6xl"><span class="lg:6xl">learning together</span> <br> just got <span class="text-blue-600">easier</span><span><img src="/assets/bi_chat-left-quote-fill.svg" alt="qoute" class="inline quote ml-2 mb-5 lg:mb-16"></span></h1>
 
                     <div id="hero-img" class="lg:hidden"><img src="/assets/hero-image-mobile.png" alt="hero image"></div>
-                    <div id="hero-img" class="lg-hero-image lg:px-24"><img src="/assets/hero-image-lg.svg" alt="hero image"></div>
+                    <div id="hero-img" class="lg-hero-image lg:px-28"><img src="/assets/hero-image-lg.svg" alt="hero image"></div>
                 </div>
             </div>
             <!--hero ends-->
 
             <!--mail sub begins-->
-            <div class="mail-sub-div my-24 text-center lg:items-center lg:w-full">
+            <div class="mail-sub-div my-24 text-center lg:items-center lg:w-full lg:my-2">
                 <div class="container lg:flex lg:flex-col lg:items-center">
                     <div class="my-10 break-words lg:w-2/3">
                         Get into a  world of borderless education where learning meets networking.
@@ -56,144 +66,145 @@
                     <div class="bg-white m12 h-auto px-3 py-4 flex justify-between m-5 rounded-2xl box-shadow-blue-fade break-words lg:w-2/3 lg:px-6">
                         <span class="text-xs flex items-center text-gray-500">Let's have your email. Get notified!</span>
 
-                        <a href="#" id="sbmt-btn" class="bg-blue-600 text-white font-semibold uppercase py-3 px-6 rounded-2xl rounded-bl-none">submit</a>
+                        <a href="https://form.jotform.com/212514618058555" id="sbmt-btn" class="bg-blue-600 text-white font-semibold uppercase py-3 px-6 rounded-2xl rounded-bl-none">submit</a>
                     </div>
                 </div>
             </div>
             <!--mail sub ends-->
 
             <!--feature begins-->
-            <div class="container">
-                <div id="motiv-feature-connect-div" class="text-center mt-20">
-                    <div id="motiv" class="my-9 text-left lg:flex">
-                        <div id="motiv-txt" class="lg:w-1/2 lg:order-last lg:pt-14">
-                            <h3 class="mfc-sec-heading">Working together towards a common goal</h3>
-                            <h2 class="mfc-heading">Our Motivation</h2>
-                            <p class="mfc-descrip mb-16 lg:break-words">
-                                The Ink App supports diverse groups of young people studying in different universities across the world through a platform that allows them to connect and cross-learn. This is because the possibilities of what young people can achieve are endless with the right resources and network
-                            </p>
-                        </div>
-
-                        <div id="motiv-img" class="w-full lg:w-1/2 lg:mr-16">
-                            <img src="/assets/team-image.png" alt="team" title="team" class="">
-                        </div>
-                    </div>
-
-
-                    <!--core features begins-->
-                    <div id="feature" class="feature mt-32 lg:flex lg:text-left">
-                        <div class="lg:pr-14 lg:pt-12">
-                            <div id="ft-div-1">
-                                <h3 class="mfc-sec-heading">Why choose Ink ?</h3>
-                                <h2 class="mfc-heading">Our Features</h2>
-                                <p class="mfc-descrip">
-                                    The Ink app is redefining learning through Mutual connection across borders.
+            <div id="motiv-feature-connect-div" class="lg:pt-28">
+                <div class="container">
+                    <div class="text-center mt-20">
+                        <div id="motiv" class="my-9 text-left lg:flex">
+                            <div id="motiv-txt" class="lg:w-1/2 lg:order-last lg:pt-14">
+                                <h3 class="mfc-sec-heading">Working together towards a common goal</h3>
+                                <h2 class="mfc-heading">Our Motivation</h2>
+                                <p class="mfc-descrip mb-16 lg:break-words">
+                                    The Ink App supports diverse groups of young people studying in different universities across the world through a platform that allows them to connect and cross-learn. This is because the possibilities of what young people can achieve are endless with the right resources and network
                                 </p>
                             </div>
+    
+                            <div id="motiv-img" class="w-full lg:w-1/2 lg:mr-16">
+                                <img src="/assets/team-image.png" alt="team" title="team" class="">
+                            </div>
                         </div>
-
-                        <div id="ft-div-2" class="lg:flex lg:flex-wrap lg:w-4/5">
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                    <img src="/assets/feature-hat-icon.svg">
+    
+    
+                        <!--core features begins-->
+                        <div id="feature" class="feature mt-32 lg:flex lg:text-left">
+                            <div class="lg:pr-14 lg:pt-12 lg:w-2/5">
+                                <div id="ft-div-1">
+                                    <h3 class="mfc-sec-heading">Why choose Ink ?</h3>
+                                    <h2 class="mfc-heading">Our Features</h2>
+                                    <p class="mfc-descrip">
+                                        The Ink app is redefining learning through Mutual connection across borders.
+                                    </p>
                                 </div>
-                                <h4 class="ft-heading">Borderless Learning</h4>
-                                <span class="ft-descrip">The Ink  app is the bridge connecting students across the globe</span>
                             </div>
-
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                    <img src="/assets/feature-user-icon.svg">
-                                </div>
-                                <h4 class="ft-heading">Collaborative Teaching</h4>
-                                <span class="ft-descrip">We provide a platform to partner, share and collaborate with other educators and learners</span>
-                            </div>
-
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                    <img src="/assets/feature-knowledge-icon.svg">
-                                </div>
-                                <h4 class="ft-heading">P2P Knowledge Sharing</h4>
-                                <span class="ft-descrip">We leverage the power of human interaction to foster peer-to-peer learning</span>
-                            </div>
-
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                    <img src="/assets/feature-headset-icon.svg">
-                                </div>
-                                <h4 class="ft-heading">Study Channels</h4>
-                                <span class="ft-descrip">With the Ink app, get an opportunity to create distraction-free study groups with your friends</span>
-                            </div>
-
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div>
+    
+                            <div id="ft-div-2" class="lg:flex lg:flex-wrap lg:w-4/5">
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
                                     <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                        <img src="/assets/feature-vid-icon.svg">
+                                        <img src="/assets/feature-hat-icon.svg">
+                                    </div>
+                                    <h4 class="ft-heading">Borderless Learning</h4>
+                                    <span class="ft-descrip">The Ink  app is the bridge connecting students across the globe</span>
+                                </div>
+    
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
+                                    <div class="flex justify-center w-full mb-3 lg:justify-start">
+                                        <img src="/assets/feature-user-icon.svg">
+                                    </div>
+                                    <h4 class="ft-heading">Collaborative Teaching</h4>
+                                    <span class="ft-descrip">We provide a platform to partner, share and collaborate with other educators and learners</span>
+                                </div>
+    
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
+                                    <div class="flex justify-center w-full mb-3 lg:justify-start">
+                                        <img src="/assets/feature-knowledge-icon.svg">
+                                    </div>
+                                    <h4 class="ft-heading">P2P Knowledge Sharing</h4>
+                                    <span class="ft-descrip">We leverage the power of human interaction to foster peer-to-peer learning</span>
+                                </div>
+    
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
+                                    <div class="flex justify-center w-full mb-3 lg:justify-start">
+                                        <img src="/assets/feature-headset-icon.svg">
+                                    </div>
+                                    <h4 class="ft-heading">Study Channels</h4>
+                                    <span class="ft-descrip">With the Ink app, get an opportunity to create distraction-free study groups with your friends</span>
+                                </div>
+    
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
+                                    <div>
+                                        <div class="flex justify-center w-full mb-3 lg:justify-start">
+                                            <img src="/assets/feature-vid-icon.svg">
+                                            <img src="/assets/feature-tag-coming-soon.svg" alt="coming soon" class="mx-3">
+                                        </div>
+                                    </div>
+                                    <h4 class="ft-heading">Live Video Tutorials</h4>
+                                    <span class="ft-descrip">Go live with us - watch, learn and bring the classroom home to you</span>
+                                </div>
+    
+                                <div class="ft-list lg:w-1/2 lg:pr-10">
+                                    <div class="flex justify-center w-full mb-3 lg:justify-start">
+                                        <img src="/assets/feature-mic-icon.svg">
+    
                                         <img src="/assets/feature-tag-coming-soon.svg" alt="coming soon" class="mx-3">
                                     </div>
+                                    <h4 class="ft-heading">Audio Classes</h4>
+                                    <span class="ft-descrip">The Ink app allows inclusion for auditory learners, opt  for audio classes - if that's your preference</span>
                                 </div>
-                                <h4 class="ft-heading">Live Video Tutorials</h4>
-                                <span class="ft-descrip">Go live with us - watch, learn and bring the classroom home to you</span>
-                            </div>
-
-                            <div class="ft-list lg:w-1/2 lg:pr-10">
-                                <div class="flex justify-center w-full mb-3 lg:justify-start">
-                                    <img src="/assets/feature-mic-icon.svg">
-
-                                    <img src="/assets/feature-tag-coming-soon.svg" alt="coming soon" class="mx-3">
-                                </div>
-                                <h4 class="ft-heading">Audio Classes</h4>
-                                <span class="ft-descrip">The Ink app allows inclusion for auditory learners, opt  for audio classes - if that's your preference</span>
                             </div>
                         </div>
                     </div>
                     <!--core features ends-->
                 </div>
+                <div class="mid-section-2  lg:mt-44 lg:mb-0">
+                    <div class="container">
+                        <div>
+                            <h3 class="mfc-sec-heading">Borderless Learning</h3>
+                            <h2 class="mfc-h text-black text-lg font-black lg:text-3xl lg:mb-5">Connecting People</h2>
+                        </div>                
+                    </div>
+        
+                    <div class="map h-60 lg:h-auto lg:py-1">
+                        <div class="container flex row justify-evenly items-center lg:items-end lg:justify-between lg:relative">
+                            <div class="ppl-connect-img lg:w-1/3">
+                                <img src="/assets/people-connected-img-Group 36.png" alt="connected people">
+                            </div>
+        
+                            <div class="dwnld-div relative -top-10 sm:-top-16">
+                                <div class="">
+                                    <h3 class="mfc-sec-heading">Coming Soon :</h3>
+                                    <span class="text-white uppercase font-bold">Download on</span>
+                                    <div class="stores lg:flex lg:justify-around">
+                                        <img src="/assets/appstore-Group 53.svg" alt="appstore" class="my-2 lg:mr-3">
+                                        <img src="/assets/google-play-Group 83.svg" alt="playstore" class="my-2">
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="app-img-div w-40 relative -top-16 left-6 sm:w-44 lg:w-96 lg:pb-56 lg:-left-0">
+                                <img src="/assets/iPhone 12 - homeiphone-12.png" alt="app-image" class="lg:w-96 lg:absolute lg:-top-96">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--feature ends-->
         </section>
 
-        <section class="mid-section-2 my-56 lg:my-12">
+        <section class="mid-section-3 pt-48 pb-44 lg:mt-0 lg:pt-96 lg:pb-64">
             <div class="container">
-                <div>
-                    <h3 class="mfc-sec-heading">Borderless Learning</h3>
-                    <h2 class="mfc-heading mfc-heading-extra">Connecting People</h2>
-                </div>                
-            </div>
-
-            <div class="map h-60 lg:h-auto lg:py-1">
-                <div class="container flex row justify-evenly items-center lg:items-end lg:justify-between lg:relative">
-                    <div class="ppl-connect-img lg:w-1/3">
-                        <img src="/assets/people-connected-img-Group 36.png" alt="connected people">
-                    </div>
-
-                    <div class="dwnld-div relative -top-1">
-                        <div class="">
-                            <h3 class="mfc-sec-heading">Coming Soon :</h3>
-                            <span class="text-white uppercase font-bold">Download on</span>
-                            <div class="stores lg:flex lg:justify-around">
-                                <img src="/assets/appstore-Group 53.svg" alt="appstore" class="my-2 lg:mr-3">
-                                <img src="/assets/google-play-Group 83.svg" alt="playstore" class="my-2">
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="app-img-div w-40 relative -top-16 lg:w-80 lg:pb-32">
-                        <img src="/assets/iPhone 12 - homeiphone-12.png" alt="app-image" class="lg:w-96 lg:absolute lg:-top-96">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mid-section-3 my-20 lg:py-36">
-            <div class="container">
-                <div class="flex lg:items-center">
-                    <div class="w-1/2 relative -left-6 lg:-left-32 lg:w-1/2">
+                <div class="flex items-center lg:items-center sm:items-center">
+                    <div class="w-1/2 relative -left-6 sm:-left-9 lg:-left-32 lg:w-1/2">
                         <img src="/assets/girl-student-Mask Group.png" alt="student">
                     </div>
                     <div class="w-1/2">
                         <h3 class="mfc-sec-heading">What We Hope to Achieve</h3>
-                        <h2 class="text-xl font-extrabold mb-2 leading-6 text-black lg:text-4xl">Learn <span class="text-blue-600">anywhere</span>, with <span class="text-blue-600">anyone</span></h2>
+                        <h2 class="learn-any text-l sm:text-xl font-extrabold mb-2 leading-6 text-black lg:text-3xl">Learn <span class="text-blue-600">anywhere</span> , with <span class="text-blue-600">anyone</span></h2>
                         <p class="txt-decsrip-1 lg:mb-12">
                             One way we believe we can make this happen is through our mantra, at its core is the connection of people and exchange of ideas. We want to see to it that you can: Learn anywhere, with anyone 
                         </p>
@@ -205,17 +216,17 @@
                         <div class="mantra-2">
                             <div class="metrics-div flex flex-row justify-between">
                                 <div class="">
-                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600">10K+</h2>
+                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600 metric">10K+</h2>
                                     <span class="metrics-txt font-bold">Students</span>
                                 </div>
             
                                 <div class="">
-                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600">2K+</h2>
+                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600 metric">2K+</h2>
                                     <span class="metrics-txt font-bold">Topics</span>
                                 </div>
             
                                 <div class="">
-                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600">100+</h2>
+                                    <h2 class="text-2xl lg:text-3xl font-black text-blue-600 metric">100+</h2>
                                     <span class="metrics-txt font-bold">Countries</span>
                                 </div>
                             </div>
@@ -223,20 +234,20 @@
                     </div>
                 </div>
     
-                <div class="my-16 mantra-1 sm:hidden">
+                <div class="my-16 mantra-1 lg:hidden">
                     <div class="metrics-div flex flex-row justify-between">
                         <div class="">
-                            <h2 class="text-2xl font-black text-blue-600">10K+</h2>
+                            <h2 class="text-2xl font-black text-blue-600 metric">10K+</h2>
                             <span class="metrics-txt font-bold">Students</span>
                         </div>
     
                         <div class="">
-                            <h2 class="text-2xl font-black text-blue-600">2K+</h2>
+                            <h2 class="text-2xl font-black text-blue-600 metric">2K+</h2>
                             <span class="metrics-txt font-bold">Topics</span>
                         </div>
     
                         <div class="">
-                            <h2 class="text-2xl font-black text-blue-600">100+</h2>
+                            <h2 class="text-2xl font-black text-blue-600 metric">100+</h2>
                             <span class="metrics-txt font-bold">Countries</span>
                         </div>
                     </div>
@@ -247,7 +258,7 @@
                 <div class="lg:flex lg:justify-center lg:my-32">
                     <div class="cta-div text-white flex flex-col items-center justify-between py-16 bg-blue-600 p-5 lg:w-4/5 lg:rounded-3xl">
                         <h1 class="cta-txt text-xl font-black lg:text-4xl">Be the First to know when we launch</h1>
-                        <a href="#" class="bg-white px-6 py-3 mt-6 rounded-2xl rounded-bl-none text-blue-600 font-bold">Join the waiting list</a>
+                        <a href="https://form.jotform.com/212514618058555" class="bg-white px-6 py-3 mt-6 rounded-2xl rounded-bl-none text-blue-600 font-bold">Join the waiting list</a>
                     </div>
                 </div>
             <!--cta button ends-->
@@ -279,8 +290,8 @@
                     <div class="my-7">
                         <span class="footer-heading">CONTACT</span>
                         <ul>
-                            <li class="py-2"><a href="#">EMAIL : bluvardink@gmail.com</a></li>
-                            <li class="py-2"><a href="#">PHONE : 081-INK-0000</a></li>
+                            <li class="py-2"><a href="mailto:bluvardink@gmail.com">EMAIL : bluvardink@gmail.com</a></li>
+                            <li class="py-2"><a href="tel:+2348167968280">PHONE : 081-INK-0000</a></li>
                         </ul>
                     </div>
     
