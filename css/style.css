@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
-#hero-txt, .mfc-heading, .learn-any, .metric, .mfc-h {
+#hero-txt, .mfc-heading, .learn-any, .metric, .mfc-h, .cta-txt {
     font-family: 'Kumar One';
 }
 
 .mfc-sec-heading {
-    font-family: 'Dancing Script'
+    font-family: 'Oleo Script', cursive;
 }
 
 .section-1 {
@@ -38,7 +38,7 @@
 
 
 .mfc-sec-heading {
-    color: #eca601;
+    color: #FFBE27;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -84,7 +84,7 @@
 
 .cta-div {
     background-image: url(/assets/cta-blue-noise-bkgrnd.svg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(59, 130, 246, 1);
 }
