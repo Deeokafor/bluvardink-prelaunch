@@ -27,7 +27,7 @@
 }
 
 .map {
-    background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(/assets/world-map.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.8)), url(/assets/world-map.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -61,14 +61,15 @@
     background-image: url(/assets/feature-bkgrnd-puzzle-conffetti-Group\ 85.png);
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: 100% 90%;
 }
 
 .mid-section-3 {
     background-image: url(/assets/cta-bkgrnd-Group\ 85.png);
-    background-size: cover;
-    background-position: bottom;
+    background-size: 100%;
+    background-position: 100% 125%;
     background-repeat: no-repeat;
+    background-origin: border-box;
 }
 
 .ft-heading {
@@ -136,7 +137,16 @@
 
     .mid-section-3 {
         background-image: url(/assets/cta-background-mobile.png);
-        background-size: 90%;
-        background-position: right;
+        background-size: 80%;
+        background-position: 100% 90%;
+        background-origin: content-box;
+    }
+
+    .cta-div {
+        background-position: center;
+    }
+
+    .coming-soon{
+        width: 130px;
     }
 }
