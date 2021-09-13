@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hero-txt, .mfc-heading, .learn-any, .metric, .mfc-h, .cta-txt {
+    font-family: 'Kumar One';
+}
+
+.mfc-sec-heading {
+    font-family: 'Oleo Script', cursive;
+}
+
+.section-1 {
+    background-image: url(/assets/header-background-lg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+.quote {
+    width: 42px
+}
+
+.map {
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.8)), url(/assets/world-map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-shadow-blue-fade{
+    box-shadow: 0px 15px 40px -10px rgba(7, 49, 175, 0.25);
+}
+
+
+.mfc-sec-heading {
+    color: #FFBE27;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.mfc-heading {
+    color: black;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.mail-sub-div {
+    background-image: url(/assets/email-sub-bkgrnd-Group\ 85.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#motiv-feature-connect-div {
+    background-image: url(/assets/feature-bkgrnd-puzzle-conffetti-Group\ 85.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+}
+
+.mid-section-3 {
+    background-image: url(/assets/cta-bkgrnd-Group\ 85.png);
+    background-size: 100%;
+    background-position: 100% 125%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.ft-heading {
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ft-list {
+    margin: 50px 0px;
+}
+
+.cta-div {
+    background-image: url(/assets/cta-blue-noise-bkgrnd.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(59, 130, 246, 1);
+}
+
+.logo {
+    width: 155px;
+}
+
+.footer {
+    color: rgba(255,255,255,0.7);
+}
+
+.footer-heading {
+    color: rgba(255,255,255,1);
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .section-1 {
+        background-image: url(/assets/header-background-mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .ppl-connect-img {
+        display: none;
+    }
+
+    .txt-decsrip-1 {
+        display: none;
+    }
+
+    .lg-hero-image{
+        display: none;
+    }
+
+    .quote {
+        width: 21px;
+        height: 20.07px;
+    }
+
+    .mantra-2 {
+        display: none;
+    }
+
+    #motiv-feature-connect-div {
+        background-image: url(/assets/feature-background-mobile.png);    
+    }
+
+    .mid-section-3 {
+        background-image: url(/assets/cta-background-mobile.png);
+        background-size: 80%;
+        background-position: 100% 90%;
+        background-origin: content-box;
+    }
+
+    .cta-div {
+        background-position: center;
+    }
+
+    .coming-soon{
+        width: 130px;
+    }
+}
