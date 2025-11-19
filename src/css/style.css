@@ -27,7 +27,7 @@
 }
 
 .map {
-    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.8)), url(../assets/world-map.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.8)), url(../../assets/world-map.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -51,21 +51,21 @@
 }
 
 .mail-sub-div {
-    background-image: url(../assets/email-sub-bkgrnd-Group\ 85.png);
+    background-image: url(../../assets/email-sub-bkgrnd-Group\ 85.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 
 #motiv-feature-connect-div {
-    background-image: url(../assets/feature-bkgrnd-puzzle-conffetti-Group\ 85.png);
+    background-image: url(../../assets/feature-bkgrnd-puzzle-conffetti-Group\ 85.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 90%;
 }
 
 .mid-section-3 {
-    background-image: url(../assets/cta-bkgrnd-Group\ 85.png);
+    background-image: url(../../assets/cta-bkgrnd-Group\ 85.png);
     background-size: 100%;
     background-position: 100% 125%;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 }
 
 .cta-div {
-    background-image: url(../assets/cta-blue-noise-bkgrnd.svg);
+    background-image: url(../../assets/cta-blue-noise-bkgrnd.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(59, 130, 246, 1);
@@ -105,7 +105,7 @@
 
 @media (max-width: 768px) {
     .section-1 {
-        background-image: url(../assets/header-background-mobile.png);
+        background-image: url(../../assets/header-background-mobile.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -132,11 +132,11 @@
     }
 
     #motiv-feature-connect-div {
-        background-image: url(../assets/feature-background-mobile.png);    
+        background-image: url(../../assets/feature-background-mobile.png);    
     }
 
     .mid-section-3 {
-        background-image: url(../assets/cta-background-mobile.png);
+        background-image: url(../../assets/cta-background-mobile.png);
         background-size: 80%;
         background-position: 100% 90%;
         background-origin: content-box;
