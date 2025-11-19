@@ -12,7 +12,7 @@
 }
 
 .section-1 {
-    background-image: url(./../assets/header-background-lg.png);
+    background-image: url(../../assets/header-background-lg.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
